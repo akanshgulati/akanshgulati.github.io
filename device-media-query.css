@@ -1,0 +1,14 @@
+body{
+    background: red;
+}
+.mobile{
+    display: none;
+}
+@media (max-device-width: 400px) {
+    body {
+        background: grey;
+    }
+    .mobile{
+        display: block;
+    }
+}
